@@ -1,1 +1,8 @@
 <p>list works!</p>
+<ul>
+    @for (product of products; track product.id) {
+        <li>
+            {{ product.id }} - {{ product.title }}
+        </li>
+    }
+</ul>
