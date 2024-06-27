@@ -1,0 +1,12 @@
+{
+    "products": [
+        {
+            "id": "1",
+            "title": "Relógio"
+        },
+        {
+            "id": "2",
+            "title": "Computador"
+        }
+    ]
+}
