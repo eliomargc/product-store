@@ -11,9 +11,9 @@ import { Product } from '../../../../shared/interfaces/product.interface';
   styleUrl: './card.component.scss'
 })
 export class CardComponent {
-  product = input.required<Product>();
+  pro = input.required<Product>();
 
-  productTitle = computed(() => this.product().title);
+  productTitle = computed(() => this.pro().title);
 }
 
 
