@@ -31,11 +31,7 @@ export class CreateComponent {
     this.productsService.post({
       title: this.form.controls.title.value
     }).subscribe(() => {
-      this.matSnackBar.open('Salvo com sucesso!', 'OK', {
-        duration: 3000,
-        horizontalPosition: 'center',
-        verticalPosition: 'top'
-      });
+      this.matSnackBar.open('Salvo com sucesso!', 'OK');
       this.router.navigateByUrl('/');
     });
 
