@@ -1,1 +1,9 @@
-<p>create works!</p>
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <mat-form-field>
+        <mat-label>Título</mat-label>
+        <input type="text" matInput formControlName="title" placeholder="Digite um título">
+    </mat-form-field>
+
+    <button type="submit">Salvar</button>
+
+</form>
