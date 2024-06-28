@@ -1,10 +1,12 @@
-<mat-card appearance="outlined">
-    <mat-card-header>
-        <mat-card-title> {{ pro().id + " - " + pro().title }}</mat-card-title>
-    </mat-card-header>
-    <mat-card-actions>
-        <button mat-button>Editar</button>
-        <button mat-button>Deletar</button>
-    </mat-card-actions>
-</mat-card>
+<div class="cards-container">
+    <mat-card appearance="outlined" >
+        <mat-card-header>
+            <mat-card-title> {{ pro().id + " - " + pro().title }}</mat-card-title>
+        </mat-card-header>
+        <mat-card-actions>
+            <button mat-button color="primary">Editar</button>
+            <button mat-button color="warn">Deletar</button>
+        </mat-card-actions>
+    </mat-card>
+</div>
 

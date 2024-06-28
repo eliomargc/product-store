@@ -9,5 +9,6 @@ import { MatToolbarModule } from "@angular/material/toolbar"
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
+[x: string]: string|null|undefined;
 
 }
